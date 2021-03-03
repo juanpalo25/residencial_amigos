@@ -1,0 +1,134 @@
+.contenedor-header {
+  margin-top: 20%; }
+
+.navbar {
+  background-color: #d6df63; }
+
+.header-text h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #15543d; }
+  @media (max-width: 728px) {
+    .header-text h2 {
+      font-size: 20px;
+      text-align: center;
+      right: 0; } }
+  @media (max-width: 1000px) {
+    .header-text h2 {
+      color: #15543d;
+      font-size: 24px;
+      text-align: center;
+      right: 0; } }
+
+.header-text h2 span {
+  font-family: "Potta One", cursive; }
+
+.header-text p {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  color: #f1f1f1; }
+  @media (max-width: 728px) {
+    .header-text p {
+      font-size: 20px;
+      text-align: center;
+      right: 0; } }
+  @media (max-width: 1000px) {
+    .header-text p {
+      font-size: 23px;
+      text-align: center;
+      right: 0; } }
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 16rem;
+  height: 6rem;
+  margin-left: 20%;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 40px 60px;
+  font-size: 200px;
+  border-radius: .25rem;
+  transition: all .2s ease-in-out; }
+  @media (max-width: 728px) {
+    .btn {
+      margin-top: 30px;
+      width: 8rem;
+      height: 3rem;
+      font-size: 8px;
+      text-align: center;
+      right: 0;
+      margin-left: 40%; } }
+  @media (max-width: 1000px) {
+    .btn {
+      margin-top: 30px;
+      width: 10rem;
+      height: 4rem;
+      text-align: center;
+      right: 0;
+      margin-left: 40%; } }
+  .btn.btn-primary {
+    color: #333;
+    background-color: rgba(172, 165, 165, 0.5);
+    border-color: #666; }
+    .btn.btn-primary:hover {
+      color: #fff;
+      background-color: #333;
+      border-color: #666;
+      font-size: 1.6rem;
+      transition: all .5s ease-in-out; }
+      @media (max-width: 1000px) {
+        .btn.btn-primary:hover {
+          color: #fff;
+          background-color: #333;
+          border-color: #666;
+          font-size: 12px; }
+          .btn.btn-primary:hover .btn a {
+            text-decoration: none;
+            color: #fff; } }
+      @media (max-width: 728px) {
+        .btn.btn-primary:hover {
+          color: #fff;
+          background-color: #333;
+          border-color: #666;
+          font-size: 12px; }
+          .btn.btn-primary:hover .btn a {
+            text-decoration: none;
+            color: #fff; } }
+
+@media (max-width: 728px) {
+  .btn span {
+    font-size: 10px;
+    text-align: center; } }
+
+.btn a {
+  text-decoration: none;
+  color: #000; }
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px; }
+
+@media (max-width: 728px) {
+  #logo {
+    text-align: center;
+    margin-bottom: 25px; } }
+
+#logo img {
+  border: none;
+  position: absolute;
+  left: 10px;
+  top: 15px; }
+
+.habitaciones {
+  height: 60vh; }
+
+#galeria .col-lg-3 {
+  margin: 0;
+  padding: 25px; }
+  #galeria .col-lg-3 .col-md-4 {
+    margin: 0;
+    padding: 25px; }
